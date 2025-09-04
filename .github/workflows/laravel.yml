@@ -9,7 +9,7 @@ on:
 
 jobs:
   vulnerabilities-scan:
-    runs-on: devopslab
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
